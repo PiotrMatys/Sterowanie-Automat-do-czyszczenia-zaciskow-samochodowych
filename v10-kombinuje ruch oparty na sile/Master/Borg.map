@@ -1,0 +1,90 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+PORT_F                                                            0x0500       1
+PORTHH                                                            0x0501       1
+PORT_CZYTNIK                                                      0x0502       1
+PORTJJ                                                            0x0503       1
+PORTKK                                                            0x0504       1
+PORTLL                                                            0x0505       1
+PORTMM                                                            0x0506       1
+PORT_STER3                                                        0x0507       1
+PORT_STER4                                                        0x0508       1
+PORT_STER1                                                        0x0509       1
+PORT_STER2                                                        0x050A       1
+macierz_zaciskow                                                  0x050B       6
+sek1                                                              0x0511       4
+sek2                                                              0x0515       4
+sek3                                                              0x0519       4
+sek4                                                              0x051D       4
+sek11                                                             0x0521       4
+sek12                                                             0x0525       4
+sek13                                                             0x0529       4
+cykl                                                              0x052D       2
+bbb                                                               0x052F       2
+pozycjonowanie_LEFS32_300_1                                       0x0531       2
+pozycjonowanie_LEFS32_300_2                                       0x0533       2
+il_zaciskow_rzad_1                                                0x0535       2
+il_zaciskow_rzad_2                                                0x0537       2
+cykl_sterownik_1                                                  0x0539       2
+cykl_sterownik_3                                                  0x053B       2
+cykl_sterownik_2                                                  0x053D       2
+cykl_sterownik_4                                                  0x053F       2
+adr1                                                              0x0541       2
+adr2                                                              0x0543       2
+adr3                                                              0x0545       2
+adr4                                                              0x0547       2
+cykl_sterownik_3_wykonalem                                        0x0549       2
+szczotka_druc_cykl                                                0x054B       2
+cykl_glowny                                                       0x054D       2
+ruch_zlozony                                                      0x054F       2
+krazek_scierny_cykl_po_okregu                                     0x0551       2
+krazek_scierny_cykl                                               0x0553       2
+cykl_ilosc_zaciskow                                               0x0555       2
+wykonalem_komplet_okregow                                         0x0557       2
+abs_ster3                                                         0x0559       2
+abs_ster4                                                         0x055B       2
+koniec_rzedu_10                                                   0x055D       2
+rzad_obrabiany                                                    0x055F       2
+jestem_w_trakcie_czyszczenia_calosci                              0x0561       2
+wykonalem_rzedow                                                  0x0563       2
+czekaj_az_puszcze                                                 0x0565       2
+czas_przedmuchu                                                   0x0567       2
+a                                                                 0x0569      20
+pushing                                                           0x057D       2
+wymieniono_szczotke_druciana                                      0x057F       2
+wymieniono_krazek_scierny                                         0x0581       2
+predkosc_pion_szczotka                                            0x0583       2
+predkosc_pion_krazek                                              0x0585       2
+wejscie_krazka_sciernego_w_pow_boczna_cylindra                    0x0587       2
+predkosc_ruchow_po_okregu_krazek_scierny                          0x0589       2
+test_geometryczny_rzad_1                                          0x058B       2
+test_geometryczny_rzad_2                                          0x058D       2
+czas_pracy_krazka_sciernego                                       0x058F       2
+czas_pracy_szczotki_drucianej                                     0x0591       2
+powrot_przedwczesny_druciak                                       0x0593       2
+czas_druciaka_na_gorze                                            0x0595       2
+_seed                                                             0x0597       4
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+szczotka_druciana_ilosc_cykli                                     0x0000       2
+krazek_scierny_ilosc_cykli                                        0x0002       2
+krazek_scierny_cykl_po_okregu_ilosc                               0x0004       2
+czas_pracy_krazka_sciernego_h                                     0x0006       2
+czas_pracy_szczotki_drucianej_h                                   0x0008       2
+czas_pracy_krazka_sciernego_stala                                 0x000A       2
+czas_pracy_szczotki_drucianej_stala                               0x000C       2
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+xxx                                                               R4,R5        2
+nr_zacisku                                                        R6,R7        2
+odczytalem_zacisk                                                 R8,R9        2
+il_prob_odczytu                                                   R10,R11      2
+start                                                             R12,R13      2
+guzik1_przelaczania_zaciskow                                      R2.0      1bit
+guzik2_przelaczania_zaciskow                                      R2.1      1bit
+zmienna_przelaczanie_zaciskow                                     R2.2      1bit

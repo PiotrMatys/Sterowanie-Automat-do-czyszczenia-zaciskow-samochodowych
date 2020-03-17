@@ -1,0 +1,8 @@
+main DSTACK_USAGE:0 DSTACK_LEVEL:0 FILE:"Borg.c" LINE:6358
+test_geometryczny DSTACK_USAGE:30 DSTACK_LEVEL:30 FILE:"Borg.c" LINE:5604
+wybor_linijek_sterownikow DSTACK_USAGE:2 DSTACK_LEVEL:32 FILE:"Borg.c" LINE:1707
+komunikat_na_panel DSTACK_USAGE:8 DSTACK_LEVEL:40 FILE:"Borg.c" LINE:388
+printf DSTACK_USAGE:10 DSTACK_LEVEL:50 FILE:"..\..\..\lib\stdio.lib" LINE:1476
+_print DSTACK_USAGE:20 DSTACK_LEVEL:70 FILE:"..\..\..\lib\stdio.lib" LINE:503
+strlen DSTACK_USAGE:2 DSTACK_LEVEL:72 FILE:"..\..\..\lib\string.lib" LINE:1707
+timer0_ovf_isr DSTACK_USAGE:9 DSTACK_LEVEL:81 FILE:"Borg.c" LINE:339

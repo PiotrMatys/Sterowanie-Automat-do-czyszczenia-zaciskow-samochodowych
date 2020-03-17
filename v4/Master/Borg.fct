@@ -1,0 +1,9 @@
+main DSTACK_USAGE:0 DSTACK_LEVEL:0 FILE:"Borg.c" LINE:6183
+ostateczny_wybor_zacisku DSTACK_USAGE:2 DSTACK_LEVEL:2 FILE:"Borg.c" LINE:5137
+odczyt_wybranego_zacisku DSTACK_USAGE:2 DSTACK_LEVEL:4 FILE:"Borg.c" LINE:792
+komunikat_z_czytnika_kodow DSTACK_USAGE:16 DSTACK_LEVEL:20 FILE:"Borg.c" LINE:428
+komunikat_na_panel DSTACK_USAGE:8 DSTACK_LEVEL:28 FILE:"Borg.c" LINE:388
+printf DSTACK_USAGE:10 DSTACK_LEVEL:38 FILE:"..\..\..\lib\stdio.lib" LINE:1476
+_print DSTACK_USAGE:20 DSTACK_LEVEL:58 FILE:"..\..\..\lib\stdio.lib" LINE:503
+strlen DSTACK_USAGE:2 DSTACK_LEVEL:60 FILE:"..\..\..\lib\string.lib" LINE:1707
+timer0_ovf_isr DSTACK_USAGE:9 DSTACK_LEVEL:69 FILE:"Borg.c" LINE:339
